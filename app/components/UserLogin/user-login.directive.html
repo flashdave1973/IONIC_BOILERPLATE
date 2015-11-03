@@ -1,0 +1,27 @@
+<ion-view view-title="Login">
+  <ion-content class="padding background-login">
+    <div class="heading">
+      <h1 class="login-title">
+          <img src="img/ic_title.png" alt="All Clear" />
+      </h1>
+    </div>
+    <div class="login-form">
+      <div class="list list-inset">
+        <form>
+          <label class="item item-input">
+            <span class="custom-person"></span>
+            <input type="text" placeholder="Username" ng-model="ctrl.loginData.username">
+          </label>
+          <label class="item item-input">
+            <span class="custom-locked"></span>
+            <input type="password" placeholder="Password" ng-model="ctrl.loginData.password">
+          </label>
+          <label class="remember-me">
+            <input type="checkbox" name="rememberMe" ng-checked="ctrl.loginData.rememberMe" ng-model="ctrl.loginData.rememberMe" />Remember me
+          </label>
+        </form>
+      </div>
+      <button class="button button-block button-calm" ng-click="ctrl.doLogin()">LOGIN</button>
+    </div>
+  </ion-content>
+</ion-view>

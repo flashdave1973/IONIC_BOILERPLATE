@@ -1,0 +1,32 @@
+// -------------------------------
+
+//Project fonts
+
+@font-face {
+    font-family: 'fontroboto';
+    src:url('fonts/Roboto-Regular.ttf') format('truetype'),
+        url('fonts/Roboto-Light.ttf') format('truetype'),
+        url('fonts/Roboto-Medium.ttf') format('truetype');
+    font-style: normal;
+}
+
+body{
+    font-family: "Roboto-Regular", "Helvetica Neue",  Helvetica, sans-serif;
+    background: #F1F4F8;
+}
+
+.pane .scroll-content{
+    background: #F1F4F8;
+
+}
+
+.menu-left, .menu-left a.item-content{
+    background: #F1F4F8;
+}
+
+.button{
+    font-family: "Roboto-Regular", "Helvetica Neue",  Helvetica, sans-serif;
+}
+.bar {
+  display: none;
+}

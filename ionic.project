@@ -1,0 +1,10 @@
+{
+  "name": "all-clear",
+  "app_id": "",
+  "gulpStartupTasks": [],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ],
+  "defaultBrowser": "chrome"
+}

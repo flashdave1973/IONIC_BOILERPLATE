@@ -1,0 +1,29 @@
+signal-emergency {
+  p {
+    margin-top: 40%;
+    font-size: 16px;
+    color: $stable;
+  }
+  .pane {
+    background-image: url('img/background_screen2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-size:cover;
+    margin: auto;
+    z-index: -2;
+  }
+  h1 {
+    color: $positive;
+    font-weight: 200;
+    background-image: url('img/ic_dash-rectangle.png');
+    background-size: contain;
+    margin: 0 20px;
+  }
+  img {
+    max-width: 50px;
+    margin-top: -10px;
+    margin-bottom: 90%;
+    margin-bottom: 60%;
+  }
+}
